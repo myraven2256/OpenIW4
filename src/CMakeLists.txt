@@ -9,6 +9,7 @@ include_directories(
 
 add_definitions(
     /FI"stdafx.hpp"
+    -DPATCHES
 )
 
 add_compile_options(
