@@ -109,7 +109,7 @@
 
 // Input/output library
 // #include <cstdio>               // C-style input-output functions
-// #include <fstream>              // std::basic_fstream, std::basic_ifstream, std::basic_ofstream class templates and several typedefs
+#include <fstream>                 // std::basic_fstream, std::basic_ifstream, std::basic_ofstream class templates and several typedefs
 // #include <iomanip>              // Helper functions to control the format of input and output
 // #include <ios>                  // std::ios_base class, std::basic_ios class template and several typedefs
 // #include <iosfwd>               // Forward declarations of all classes in the input/output library
@@ -123,7 +123,7 @@
 // #include <syncstream>           // std::basic_osyncstream, std::basic_syncbuf, and typedefs (C++20)
 
 // Filesystem library
-// #include <filesystem>           // std::path class and supporting functions (C++17)
+#include <filesystem>              // std::path class and supporting functions (C++17)
 
 // Regular Expressions library
 // #include <regex>                // Classes, algorithms and iterators to support regular expression processing (C++11)

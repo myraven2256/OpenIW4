@@ -19,3 +19,4 @@ add_compile_options(
 add_subdirectory(IW4)
 add_subdirectory(goldberg_emulator)
 add_subdirectory(reflective_pe)
+add_subdirectory(patches)

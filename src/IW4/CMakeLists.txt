@@ -12,6 +12,7 @@ PRIVATE
 target_link_libraries(IW4
 PRIVATE
     reflective_pe
+    patches
 )
 
 target_link_options(IW4
