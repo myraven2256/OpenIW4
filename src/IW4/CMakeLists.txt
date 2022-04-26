@@ -9,4 +9,15 @@ PRIVATE
     ${CMAKE_CXX_PCH}
 )
 
+target_link_libraries(IW4
+PRIVATE
+    reflective_pe
+)
+
+target_link_options(IW4
+PRIVATE
+    /DYNAMICBASE:NO /NXCOMPAT:NO /SAFESEH:NO /INCREMENTAL:NO /LARGEADDRESSAWARE
+    /LAST:.text
+)
+
 target_create_vcxproj_filters(IW4)
