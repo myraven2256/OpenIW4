@@ -1,0 +1,93 @@
+//! @file
+//! SPDX-License-Identifier: GPL-3.0-or-later
+
+
+#ifdef    __UNIMPLEMENTED__
+
+static unsigned int LowerCase(unsigned int stringValue)
+{
+
+}
+
+#endif // __UNIMPLEMENTED__
+
+#ifdef    __UNIMPLEMENTED__
+
+static union sval_u Scr_CreateFunctionCall1(const char* name, union sval_u param0, union sval_u param0SourcePos, union sval_u sourcePos)
+{
+
+}
+
+#endif // __UNIMPLEMENTED__
+
+#ifdef    __UNIMPLEMENTED__
+
+static union sval_u Scr_CreateFunctionCall2(const char* name, union sval_u param0, union sval_u param1, union sval_u param0SourcePos, union sval_u param1SourcePos, union sval_u sourcePos)
+{
+
+}
+
+#endif // __UNIMPLEMENTED__
+
+#ifdef    __UNIMPLEMENTED__
+
+static union sval_u Scr_ConvertVariableToExpression(union sval_u varExpr, union sval_u sourcePos)
+{
+
+}
+
+#endif // __UNIMPLEMENTED__
+
+#ifdef    __UNIMPLEMENTED__
+
+static union sval_u Scr_ConvertExpressionToPrimitiveExpression(union sval_u expr, union sval_u sourcePos)
+{
+
+}
+
+#endif // __UNIMPLEMENTED__
+
+#ifdef    __UNIMPLEMENTED__
+
+static union sval_u Scr_CreateForEachStatement(union sval_u keyExpr, union sval_u valueExpr, union sval_u arrayExpr, union sval_u stmt, union sval_u sourcePos, union sval_u keySourcePos, union sval_u arraySourcePos, union sval_u inSourcePos, union sval_u postArraySourcePos)
+{
+
+}
+
+#endif // __UNIMPLEMENTED__
+
+#ifdef    __UNIMPLEMENTED__
+
+static union sval_u Scr_CreateForEachStatementNoKey(union sval_u valueExpr, union sval_u arrayExpr, union sval_u stmt, union sval_u sourcePos, union sval_u arraySourcePos, union sval_u inSourcePos, union sval_u postArraySourcePos)
+{
+
+}
+
+#endif // __UNIMPLEMENTED__
+
+#ifdef    __UNIMPLEMENTED__
+
+static int yyerror(char* s)
+{
+
+}
+
+#endif // __UNIMPLEMENTED__
+
+#ifdef    __UNIMPLEMENTED__
+
+void ScriptParse(union sval_u* parseData, unsigned char user)
+{
+
+}
+
+#endif // __UNIMPLEMENTED__
+
+#ifdef    __UNIMPLEMENTED__
+
+int yywrap()
+{
+
+}
+
+#endif // __UNIMPLEMENTED__
