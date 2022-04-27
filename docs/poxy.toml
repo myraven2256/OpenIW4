@@ -7,7 +7,7 @@ description         = 'IW4 (game engine)'
 cpp                 = 23
 github              = 'OpenIW/OpenIW4'
 license             = [ 'GPLv3', 'https://github.com/OpenIW/OpenIW4/blob/master/LICENSE' ]
-favicon             = 'favicon.ico'
+favicon             = 'favicon.png'
 navbar              = [ 'namespaces', 'annotated' ]
 theme               = 'dark'
 
